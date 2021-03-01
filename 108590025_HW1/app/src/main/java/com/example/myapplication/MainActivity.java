@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         String TAG = MainActivity.class.getSimpleName();
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "Hello World");
+        Log.d(TAG, "Hello Worlda");
 
     }
 }
