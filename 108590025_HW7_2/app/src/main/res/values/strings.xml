@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">108590025_HW7_2</string>
+    <string-array name="foods">
+        <item>Chocolate Mint Bars</item>
+        <item>Blueberry Cupcakes</item>
+        <item>Fudge Walnut Brownies</item>
+        <item>Lemon Cake</item>
+        <item>Blueberry Peach Cobbler</item>
+        <item>Texas Sheet Cake</item>
+        <item>Espresso Crinkles</item>
+        <item>Chocolate Cherry Cookies</item>
+        <item>Vanilla Cheesecake</item>
+        <item>Tiramisu</item>
+        <item>Carrot Cake</item>
+        <item>Blueberry Ice Cream</item>
+    </string-array>
+    <string-array name="desc">
+        <item>You\'ll love these if you\'re a big fan of thin chocolate mint Girl Scout cookies. The dense base layer is a rich fudgy brownie.</item>
+        <item>Lemon and blueberry flavors give these cupcakes a great taste. Blueberries or fresh, edible flowers make an easy, pretty decoration.</item>
+        <item>These brownies are rich in cocoa, melted chocolate and chocolate chunks.</item>
+        <item>This lemon cake recipe trims the fat and calories while still retaining the moist lemony quality.</item>
+        <item>Use fresh blueberries and peaches that aren\'t super ripe for this cobbler recipe so they\'ll hold their shape when cooked.</item>
+        <item>This class Texas sheet cake recipe features a homemade chocolate cake layer topped with chocolate frosting and chopped toasted pecans.  Its rectangular shape makes this cake perfect for serving to a crowd.</item>
+        <item>These cookies are flavored with espresso.</item>
+        <item>Chocolate and cherry flavours mixed together. Using bittersweet chocolate, the sugar is reduced and the cookies get a deeper flavor.</item>
+        <item>This cheesecake comes with cherry toppings.</item>
+        <item>Easy and delicious recipe to make real tiramisu.</item>
+        <item>Moist, light, fluffy, and low calorie carrot cake recipe.</item>
+        <item>Cool off on a hot day with a big bowl of creamy homemade ice cream. Perfect for entertaining, this five-star recipe makes enough for a crowd.</item>
+    </string-array>
+</resources>
