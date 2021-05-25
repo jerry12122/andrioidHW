@@ -1,0 +1,12 @@
+HW11_1
+1.A message that the Android system sends when a system event occurs.
+2.registerReceiver() and unRegisterReceiver().
+3.Broadcast receivers can't see or capture the intents used to start an activity.
+4.LocalBroadcastManager
+
+HW11_2
+1.You use notification channels to group multiple notifications so that the user can control the notifications' behavior.
+2.NotificationManager.notify()
+3.Click listener for the action button click event.
+4.NotificationCompat.Builder.addAction()
+5.PendingIntent.getService()
