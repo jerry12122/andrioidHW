@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">108590025_HW7_2</string>
+    <string name="action_order">cart</string>
+
     <string-array name="foods">
         <item>Chocolate Mint Bars</item>
         <item>Blueberry Cupcakes</item>

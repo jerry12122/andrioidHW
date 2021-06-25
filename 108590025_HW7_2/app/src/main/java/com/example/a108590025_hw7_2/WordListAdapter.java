@@ -19,11 +19,12 @@ public class WordListAdapter extends
     private final LinkedList<String> desc;
     private LayoutInflater mInflater;
     public static final String EXTRA_MESSAGE = "extra.MESSAGE";
+
     @NonNull
     @Override
     public WordListAdapter.WordViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        View mItemView = mInflater.inflate(R.layout.wordlist_item,parent, false);
+        View mItemView = mInflater.inflate(R.layout.wordlist_item, parent, false);
         return new WordViewHolder(mItemView, this);
     }
 
@@ -41,7 +42,7 @@ public class WordListAdapter extends
         this.desc = desc;
     }
 
-    public class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+    public class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public final TextView wordItemView;
         public final TextView wordItemView2;
         final WordListAdapter mAdapter;
@@ -53,12 +54,13 @@ public class WordListAdapter extends
             this.mAdapter = adapter;
             itemView.setOnClickListener(this);
         }
+
         @Override
         public void onClick(View v) {
             // Get the position of the item that was clicked.
             int mPosition = getLayoutPosition();
             Intent intent = new Intent(v.getContext(), recipe.class);
-            intent.putExtra(EXTRA_MESSAGE,mPosition);
+            intent.putExtra(EXTRA_MESSAGE, mPosition);
             v.getContext().startActivity(intent);
         }
     }

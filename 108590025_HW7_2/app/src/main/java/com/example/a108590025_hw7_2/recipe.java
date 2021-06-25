@@ -17,18 +17,26 @@ public class recipe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe);
+
         Intent intent = getIntent();
+        Resources res = getResources();
+
         int id = intent.getIntExtra(WordListAdapter.EXTRA_MESSAGE, 0);
 
-        Resources res = getResources();
+        String[] food = res.getStringArray(R.array.foods);
         String[] desc = res.getStringArray(R.array.desc);
-        LinkedList<String> name = new LinkedList<>();
 
+        LinkedList<String> name = new LinkedList<>();
+        LinkedList<String> description = new LinkedList<>();
+
+        for(int i=0;i<food.length;i++)
+        {
+            name.add(food[i]);
+        }
         for(int i=0;i<desc.length;i++)
         {
-            name.add(desc[i]);
+            description.add(desc[i]);
         }
-
         int[] imgList = new int[] {R.drawable.chocolate_mint_bar,
                 R.drawable.blueberry_cupcakes,
                 R.drawable.fudge_brownies,
@@ -46,6 +54,7 @@ public class recipe extends AppCompatActivity {
         ImageView image = findViewById(R.id.image);
 
         title.setText(name.get(id));
+        step.setText(description.get(id));
         image.setImageResource(imgList[id]);
     }
 }
